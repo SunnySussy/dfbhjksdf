@@ -1,0 +1,122 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local LastBreath = Instance.new("TextButton")
+local Chara = Instance.new("TextButton")
+local Gaster = Instance.new("TextButton")
+local Omori = Instance.new("TextButton")
+local Aubrey = Instance.new("TextButton")
+local SansInvincibility = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame.Position = UDim2.new(0.811514199, 0, 0, 0)
+Frame.Size = UDim2.new(0, 239, 0, 307)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.Size = UDim2.new(0, 239, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 255, 213)
+TextLabel_2.Position = UDim2.new(0.330543935, 0, 0.042145595, 0)
+TextLabel_2.Size = UDim2.new(0, 72, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "ABC 2.0 GUI"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+LastBreath.Name = "Last Breath"
+LastBreath.Parent = Frame
+LastBreath.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LastBreath.Position = UDim2.new(0, 0, 0.33815068, 0)
+LastBreath.Size = UDim2.new(0, 239, 0, 28)
+LastBreath.Font = Enum.Font.SourceSans
+LastBreath.Text = "Last Breath"
+LastBreath.TextColor3 = Color3.fromRGB(0, 0, 0)
+LastBreath.TextSize = 14.000
+LastBreath.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/QGVyPc1f"), true))()
+end)
+
+Chara.Name = "Chara"
+Chara.Parent = Frame
+Chara.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Chara.Position = UDim2.new(0, 0, 0.500817478, 0)
+Chara.Size = UDim2.new(0, 242, 0, 22)
+Chara.Font = Enum.Font.SourceSans
+Chara.Text = "Chara"
+Chara.TextColor3 = Color3.fromRGB(0, 0, 0)
+Chara.TextSize = 14.000
+Chara.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/wt5CMpZx"), true))()
+end)
+
+Gaster.Name = "Gaster"
+Gaster.Parent = Frame
+Gaster.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gaster.Position = UDim2.new(0, 0, 0.633594155, 0)
+Gaster.Size = UDim2.new(0, 239, 0, 25)
+Gaster.Font = Enum.Font.SourceSans
+Gaster.Text = "Gaster"
+Gaster.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gaster.TextSize = 14.000
+Gaster.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/v1hPqiUU"), true))()
+end)
+
+Omori.Name = "Omori"
+Omori.Parent = Frame
+Omori.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Omori.Position = UDim2.new(0, 0, 0.765472293, 0)
+Omori.Size = UDim2.new(0, 248, 0, 23)
+Omori.Font = Enum.Font.SourceSans
+Omori.Text = "Omori"
+Omori.TextColor3 = Color3.fromRGB(0, 0, 0)
+Omori.TextSize = 14.000
+Omori.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/L2kTqiKs"), true))()
+end)
+
+Aubrey.Name = "Aubrey"
+Aubrey.Parent = Frame
+Aubrey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aubrey.Position = UDim2.new(0, 0, 0.915309429, 0)
+Aubrey.Size = UDim2.new(0, 242, 0, 26)
+Aubrey.Font = Enum.Font.SourceSans
+Aubrey.Text = "Aubrey"
+Aubrey.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aubrey.TextSize = 14.000
+Aubrey.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/bJ01rcfz"), true))()
+end)
+
+SansInvincibility.Name = "Sans Invincibility"
+SansInvincibility.Parent = Frame
+SansInvincibility.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SansInvincibility.Position = UDim2.new(0, 0, 0.162866443, 0)
+SansInvincibility.Size = UDim2.new(0, 239, 0, 31)
+SansInvincibility.Font = Enum.Font.SourceSans
+SansInvincibility.Text = "Sans Invincibility"
+SansInvincibility.TextColor3 = Color3.fromRGB(0, 0, 0)
+SansInvincibility.TextSize = 14.000
+SansInvincibility.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/bBhkT8SX"), true))()
+end)
